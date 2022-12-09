@@ -1,0 +1,19 @@
+curl 'https://shree-zt669.tsi.zohocorpin.com:8443/app/api/email_templates/1000000054126' \
+  -X 'PUT' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'X-ZCSRF-TOKEN: s247pname=0a9578e2d71dbd059c7d0a9340de9212c464adcb84f8965919543d059aaf1039e15f9df297c982b2ac9bea1ef5b4e7dc490407d2013d45041d83da9107da3f8d' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Origin: https://shree-zt669.tsi.zohocorpin.com:8443' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://shree-zt669.tsi.zohocorpin.com:8443/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: stk=a145c7da2f70a99e720b1536fec36497; site24x7-_zldp=c0tmAe%2BHc70R%2BP19fGYoC4qRAOdlMdKtxOC%2FnNWcuaI6HlVvyNIVgxNaYVqafpfgnZL0iTh5UyQ%3D; lpage=l; site24x7-_uuid=82761800-8ab8-4781-a48b-2eeb369741fb_a98; _cseziamadt=91c5bde7f9ffbe27d5c546d22ede623146f054c5aaed47a0be0c453e62452c690ca0c75876c7510592757390745140d1ddf5e43cc169d0bf7467e917b6b81384; _cseziambdt=2bb1a4bc1700fbc9b6e44c03dc7598342e3006a35bb9189a1c7f8d7600e3d20005b2c4ea969ec898fd3c7dfebf574f04acbd70b2f2e22637da56b3441cfc033c; s247cname=0a9578e2d71dbd059c7d0a9340de9212c464adcb84f8965919543d059aaf1039e15f9df297c982b2ac9bea1ef5b4e7dc490407d2013d45041d83da9107da3f8d; _zcsr_tmp=0a9578e2d71dbd059c7d0a9340de9212c464adcb84f8965919543d059aaf1039e15f9df297c982b2ac9bea1ef5b4e7dc490407d2013d45041d83da9107da3f8d; zaaid=15745104; site24x7_detailsPageTimePeriod=%7B%22period%22%3A1%2C%22start_date%22%3A%222022-11-22T18%3A30%3A00.000Z%22%2C%22end_date%22%3A%222022-11-30T04%3A28%3A46.592Z%22%7D; JSESSIONID=082B4380E87E569730EECD4CA38B2126; httpReferrer1=https%3A%2F%2Fshree-zt669.tsi.zohocorpin.com%3A8443%2Fapp%2Fclient; site24x7rumID=72767770211341.1670301275748.1670302142552' \
+  --data-raw '{"display_name":"curl_check_changed","subject":"$MONITORNAME is $STATUS","message":"$MONITORNAME "}' \
+  
