@@ -1,0 +1,145 @@
+curl 'https://www.site24x7.com/app/api/email_templates' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'X-ZCSRF-TOKEN: s247pname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; JSESSIONID=6549E44E5FD296776CB0E2593EAC9B82; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; site24x7rumID=8264202697161350.1670226748699.1670227488699' \
+  --compressed ;
+curl 'https://col.site24x7rum.eu/rum/analytics' \
+  -H 'authority: col.site24x7rum.eu' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.site24x7.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.site24x7.com/' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cookie: s247cname=2034601c-82fe-4d93-9499-ec9a7e3d7a32' \
+  --data-raw '{"appkey":"68167b0b369af4d2424acc60f0f3fc81","domain":"site24x7.com","ct":1670206954764,"path":"/app/client#/admin/configuration-profiles/location-profile|/app/client#/admin/subscriptions/specify-your-requirements|/app/client#/admin/configuration-profiles/location-profile|/app/client#/web/URL|/app/client#/web/RESTAPI|/app/client#/admin/inventory/monitors-form/RESTAPI/*|/app/client#/web/URL|/app/client#/web/RESTAPISEQ|/app/client#/admin/inventory/monitors-form/RESTAPISEQ/*|/app/client#/home/monitors|/app/client#/web/URL|/app/client#/admin/inventory/add-monitor|/app/client#/admin/configuration-profiles/location-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/email-template|/app/client#/web/URL|/app/client#/web/RESTAPISEQ|/app/client#/admin/inventory/monitors-form/RESTAPISEQ/*|/app/client#/web/URL|/app/client#/web/RESTAPISEQ|/app/client#/admin/inventory/add-monitor|/app/client#/admin/configuration-profiles/location-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/location-profile|/app/client#/admin/configuration-profiles/oauth*-providers|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/admin/configuration-profiles/notification-profile|/app/client#/admin/configuration-profiles/email-template|/app/client#/web/URL|/app/client#/web/RESTAPISEQ|/app/client#/admin/inventory/monitors-form/RESTAPISEQ/*|/app/client#/web/URL|/app/client#/admin/inventory/add-monitor|/app/client#/admin/configuration-profiles/location-profile|/app/client#/admin/configuration-profiles/email-template","xprevious":"https://www.site24x7.com/app/client#/admin/inventory/add-monitor","txn":"https://www.site24x7.com/app/client#/admin/configuration-profiles/email-template","previous":"https://www.site24x7.com/app/client#/admin/configuration-profiles/location-profile","newuser":0,"guid":"8264202697161350","sst":1670226748699,"ppvt":0,"session_id":"8264202697161350.1670226748699","user_type":"zc_paid"}' \
+  --compressed ;
+curl 'https://ping.zohospotlight.com/track?x-appid=%252B%252FKTH9HSyCHMtzS%252BUNGgwQ%253D%253D&id=768321001&data=%7B%22action%22%3A%22admin.configuration-profiles.email-template%22%2C%22actiondata%22%3A%7B%22previousPage%22%3A%22admin.configuration-profiles.location-profile%22%2C%22timeTaken%22%3A4%2C%22package%22%3A%22ENTERPRISEWEB%22%2C%22license%22%3A%22ZOHO%22%2C%22orgSize%22%3A%221-100%22%7D%7D' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Content-Type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'Accept: */*' \
+  -H 'Origin: https://www.site24x7.com' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.site24x7.com/' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/%7B%7Bglobals.img_url%7D%7D/warning_32.png' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: no-cors' \
+  -H 'Sec-Fetch-Dest: image' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; JSESSIONID=6549E44E5FD296776CB0E2593EAC9B82; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; site24x7rumID=8264202697161350.1670226748699.1670227489889' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/api/email_templates' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'X-ZCSRF-TOKEN: s247pname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Origin: https://www.site24x7.com' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; JSESSIONID=97341F904551E4842BB3BE9B9232C0CA; site24x7rumID=8264202697161350.1670226748699.1670227498699' \
+  --data-raw '{"subject":"$MONITORNAME is $STATUS","display_name":"check_curl","message":"$MONITORNAME "}' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/%7B%7Bglobals.img_url%7D%7D/warning_32.png' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: no-cors' \
+  -H 'Sec-Fetch-Dest: image' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; JSESSIONID=97341F904551E4842BB3BE9B9232C0CA; site24x7rumID=8264202697161350.1670226748699.1670227498699' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/api/email_templates/432086000002334005' \
+  -X 'PUT' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'X-ZCSRF-TOKEN: s247pname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Origin: https://www.site24x7.com' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; JSESSIONID=97341F904551E4842BB3BE9B9232C0CA; site24x7rumID=8264202697161350.1670226748699.1670227508699' \
+  --data-raw '{"display_name":"check_updated","subject":"$MONITORNAME is $STATUS","message":"$MONITORNAME "}' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/%7B%7Bglobals.img_url%7D%7D/warning_32.png' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: no-cors' \
+  -H 'Sec-Fetch-Dest: image' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; JSESSIONID=97341F904551E4842BB3BE9B9232C0CA; site24x7rumID=8264202697161350.1670226748699.1670227508699' \
+  --compressed ;
+curl 'https://www.site24x7.com/app/api/email_templates/432086000002334005' \
+  -X 'DELETE' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'X-ZCSRF-TOKEN: s247pname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'Origin: https://www.site24x7.com' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.site24x7.com/app/client' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Cookie: site24x7-_zldp=c0tmAe%2BHc70RG0BD2KPx1cDB4TaTl6qrt1bKT2%2BkQOldO%2F8VMFkaqmqv%2BAA04AFBnZL0iTh5UyQ%3D; site24x7-_uuid=00ec4e41-e7c7-4608-9fc4-5e1d887f2fb9_a98; wms.agent=true; site24x7-_zldt=e863488a-7c8d-4956-aa90-0d277a7c21cb-0; 3309580ed5=cd84221cf3746c74746075d4fd6675c9; 78bd76dc99=38aa6cfca8ccb9eb4bacf05a88695062; lpage=l2; S247_hallowen=yes; _iamadt=fb973f1224e3e80b4400b2722c62a49a19444f705a37f09be796e745a092895ca64e25ee40547b9646d3af02eb6ebf4672cebc563061441931f4e4fb50ab0b72; _iambdt=12563baad9d983d45f5662c5a9fd44de618cfbc89a86036a20f1913f752fc9d7ebcec4ffe2e8964a13cc733e2829f016c7d706f2d736f16608a47840b97d3475; s247cname=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; _zcsr_tmp=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; zaaid=772204329; CT_CSRF_TOKEN=5e8c3bdb362eb5ffc89fc0196b4b4a7640a37dcbc8c29a22ae5cea2b50663bb8678e6e3ed5e4ee72ef0177ea5cc0593b18488f22fc5ef4ab8c51321b42e433ee; wms-tkp-token=768321001-7b6257cb-60eb5a3a464ecd4e794e61824573c00f; 759c5f8b25=bde94f89591c10fd85b52be30f0bb139; com_chat_owner=1670206959227; com_avcliq_owner=1670206959227; httpReferrer1=https%3A%2F%2Fwww.site24x7.com%2Fapp%2Fclient; JSESSIONID=97341F904551E4842BB3BE9B9232C0CA; site24x7rumID=8264202697161350.1670226748699.1670227508699' \
+  --data-raw '{}' \
+  --compressed
